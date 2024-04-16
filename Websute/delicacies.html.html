@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switzerland Country Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="about.html.html">Culture</a></li>
+                <li><a href="delicacies.html.html">Delicacies</a></li>
+                <li><a href="Location.html.html">Map/Location</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Switzerland's Delicacies</h1>
+    </section>
+
+ <!-- Popular Places in Switzerland -->
+
+ <section class="Places">
+    <h1>Switzerland’s Delicacies</h1>
+    <p>Delicacies</p>
+
+    <div class="row">
+        <div class="Places-col">
+            <h3>Fondue</h3>
+            <p>Fondue in Switzerland may seem clichéd, but it is indelibly woven into the country’s fabric. For centuries, Swiss living in the mountains relied on fondue as a way to use bread and cheese during colder months. Today, it is a must-have for any local or visitor to the country from autumn to spring.<br> Dunk rustic country bread into melted cheeses (opt for a moitie-moitie of gruyere and vacheron), infused with lashings of wine and garlic, bubbly over an open flame. Pair yours with white wine and chase it with schnapps or tea for an epic winter meal</p>
+        </div>
+        <div class="Places-col center-col">
+            <h3>Leeks with potatoes and sausage (Papet Vaudois)</h3>
+            <p>Papet Vaudois is best described as a mash of leeks and potatoes that are stewed for hours. The result is an earthy, onion-tinged mixture that makes the perfect root bed for fat sausage, unique to the canton of Vaud (saucisson Vaudois). With deep roots in the canton, <br>Papet Vaudois is akin to the region’s emblematic dish, and its notorious crimson sausage, loosely stuffed and plump, is not to be missed.</p>
+        </div>
+        <div class="Places-col">
+            <h3>Rosti, Valaisanne-style</h3>
+            <p>Thinly grated potatoes, pan-fried until crisp and golden, rosti is one of Switzerland’s iconic national dishes. Though no one knows when the first rosti was cooked-up, farmers in the canton of Bern would traditionally eat it for breakfast.<br> It is now found throughout the country and across mealtimes. For a brilliant winter rendition, indulge in a Rosti Valaisanne, from the canton of Valais. Served steaming in a ceramic dish, Rosti Valaisanne is a delightfully addictive mash-up of rosti topped with salty bacon, fried egg, and melted raclette cheese, served alongside tangy gherkins and pickled pearl onions.</p>
+        </div>
+    </div>
+</section>
+
+<!-------cities-------->
+
+<section class="place">
+    <h1>A "Must" to eat in Switzerland</h1>
+    
+    <div class="row">
+        <div class="city-col">
+             <img src="Sausage-ragu-with-polenta-e69dbd9.webp">
+             <h3>Polenta and braised beef</h3>
+             <p>The Italian-speaking canton of Ticino has been stirring polenta - a cornmeal dish, cooked into porridge – for centuries. Traditionally, it was cooked slowly in a copper cauldron over a fire, until thick and hearty.<br> Come wintertime, savoury braised beef, teeming with wine-induced flavours, is a staple pairing with polenta, in a perfect marriage of rustic tastes and culinary traditions.</p>
+        </div>
+        <div class="city-col">
+             <img src="Turnip-tartiflette-6787492.webp">
+             <h3>Tartiflette</h3>
+             <p>Tartiflette was conceived near the French-Swiss border in the department of Haute-Savoie, home to the local Reblochon cheese. Though the cheese dates to the 16th century, tartiflette was fashioned only in the 1980s by the Reblochon trade union in an effort to help sagging sales. And it worked. Today, tartiflette is a staple dish at most ski resorts, particularly those in Swiss-Romande.<br> This rustic plate is a starchy combination of thinly sliced potatoes, smoky bits of bacon, carmelised onions and oozy, nutty, creamy Reblocohon cheese (of course).</p>
+        </div>
+        <div class="city-col">
+             <img src="chocolate-hazelnut-thumbprint-cookies-4f524ec.webp">
+             <h3>Bern-style lekerlis biscuits with hazelnuts</h3>
+             <p>eckerli have a long and treasured history in Switzerland, particularly at Christmas time. Though their ancestors, Lebkuchen, are German sweets, these spiced, <br>gingerbread-like biscuits were given a tender hazelnut rendering in the Swiss capital of Bern centuries ago. Sticky, spicy, sweet, Leckerli are more than worthy of your Swiss culinary bucket-list, particularly when dunked in tea.</p>
+        </div>
+    </div>
+</section>
+
+
+<!------ Footer -------->
+
+   <section class="footer">
+    <h4>About us</h4>
+    <p>Ich möchte den Leuten danken, die freundlicherweise meine Website besucht haben, <br>und insbesondere meinem Programmierlehrer Sir Francis D. Ignacio.</p>
+    <div class="icons">
+    </div>
+    <p>Made by Charles Cedric B. Isidro</p>
+   </section>
+
+    <!-- JavaScript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
